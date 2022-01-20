@@ -49,4 +49,4 @@ client.categories = fs.readdirSync('./commands');
 
 
 
-client.login(token)
+client.login(process.env.token)
